@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="images/download.jpg" alt="1">
+    </div>
+    <audio src="" id="audio">
+    </audio>
+    <div class="musicplayer">
+        <h1 class="music-name" >song one</h1>
+        <p class="artist-name">artist</p>
+
+        <div class="disk play"></div>
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time" >
+                00.00
+            </span>
+            <span class="song-duration" >
+                04.30
+            </span>
+        </div>
+        <div class="controls">
+            <div class="icons" ></div>
+            <i class="fa-solid fa-backward" id="backwardbtn"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="forwardbtn"></i>
+        </div>
+        
+    </div>
+    
+    <script src="https://kit.fontawesome.com/83ba799017.js" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
